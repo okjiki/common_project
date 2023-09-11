@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+    color: rgb(28, 42, 125);
+}
+
+li {
+    display: inline-block;
+    height: 50px;
+    color: navy;
+}
+nav ul {
+    border: 2px solid rgb(192, 219, 255);
+    background-color: white;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;  /* Spread the links out evenly */
+}
+
+
+/* navigation edits */
+/* nav li is a descendant selector */
+nav li {
+    margin: 10px;
+}
+/* nav >a is a child selector */
+nav a {
+    text-decoration: none;  /* Remove the underline from links */
+    color: rgb(112, 133, 240);            /* Set the color of the links */
+}
+
+nav a:hover {
+    text-decoration: underline;  /* Underline the links when hovered */
+}
+
+
+a{
+    text-align: underline;
+}
+h1 {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+h2{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 35, 61);
+}
+
+h3{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
